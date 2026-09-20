@@ -2,6 +2,11 @@
 
 # Grok Bot Field Notes
 
+> 🇰🇷 **한국어 에디션 (Korean Edition Available)**: 
+> 본 저장소는 [@unicodef1wn](https://github.com/unicodef1wn)님의 [unicodef1wn/grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes)를 기반으로 번역 및 제작된 공식 한국어 포크 저장소입니다. 원작자의 72시간 라이브 스트리밍 현장 기록 정리에 깊은 감사를 표합니다. (All credits for compiling the original field notes go to [@unicodef1wn](https://github.com/unicodef1wn).)
+> - 📕 **한국어 완본 PDF (24p)**: [`guide/grok-bot-guide-by-spacex-engineers-ko.pdf`](guide/grok-bot-guide-by-spacex-engineers-ko.pdf)
+> - 🌐 **웹 소스 HTML**: [`guide/grok-bot-guide-ko.html`](guide/grok-bot-guide-ko.html)
+
 Three engineers from the xAI Grok Bot team built and launched a product from an empty repo in 72 hours, live on stream, using their own agent platform: [Roshan Sadanani](https://www.linkedin.com/in/roshansadanani) (product), [Lauren Tan](https://www.linkedin.com/in/laurenelizabethtan) (engineering, author of PStack), and [Matt Palmer](https://www.linkedin.com/in/matt-palmer) (developer experience). This repo is what I pulled out of those three days: a designed guide, rules you can drop into your own agents, nine role playbooks, a catalogue of bot roles, and a log of everything that broke.
 
 ## What's here
@@ -13,7 +18,7 @@ Three engineers from the xAI Grok Bot team built and launched a product from an 
 | `agents/` | The longer references `AGENTS.md` points at: verification, orchestration, skills and routines, prompts. |
 | `roster/` | Sixty-nine agent roles, one file each. What the role owns, what it doesn't, where it gets its facts, what needs approval, and a description you can paste. |
 | `playbooks/` | Nine role workshops: engineering, PM, founders, sales engineering, sales, SDR, support, post-sales, marketing. Each has the team of bots, the workflow as it ran, the prompts, the routines and the numbers. |
-| `guide/` | [*Grok Bot Guide by SpaceX Engineers*](guide/grok-bot-guide-by-spacex-engineers.pdf), a 24-page PDF that tells the three days as a story: mental model, software factory, case study, failure log, economics. |
+| `guide/` | [*Grok Bot Guide by SpaceX Engineers*](guide/grok-bot-guide-by-spacex-engineers.pdf) (Original 24-page English PDF)<br>🇰🇷 [*한국어 가이드 완본*](guide/grok-bot-guide-by-spacex-engineers-ko.pdf) (24페이지 PDF & [HTML 소스](guide/grok-bot-guide-ko.html)) |
 | `reference/` | Two short files: `ECONOMICS.md`, every cost and metric quoted with the rule it supports; `PRODUCT.md`, the parts of Grok Bot that change how you design a bot: memory, what transfers on duplicate and share, isolation, permissions. |
 | `notes/` | Structured notes, one per day. Product facts, workflows, prompts, failures, numbers, who was who. Everything else was built from these. |
 
@@ -28,7 +33,7 @@ Three engineers from the xAI Grok Bot team built and launched a product from an 
 - You want to know what goes wrong: `ANTIPATTERNS.md`.
 - You want to know what it costs and where the tokens go: `reference/ECONOMICS.md`.
 - You are deciding what goes in memory versus the description: `reference/PRODUCT.md`.
-- You want the whole story: [the PDF guide](guide/grok-bot-guide-by-spacex-engineers.pdf).
+- You want the whole story: [the original English PDF guide](guide/grok-bot-guide-by-spacex-engineers.pdf) or [🇰🇷 한국어 완본 PDF 가이드](guide/grok-bot-guide-by-spacex-engineers-ko.pdf).
 - You want to check a claim: `notes/`.
 
 ## In one paragraph
