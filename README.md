@@ -2,10 +2,11 @@
 
 # Grok Bot Field Notes
 
-> 🇰🇷 **한국어 에디션 (Korean Edition Available)**: 
-> 본 저장소는 [@unicodef1wn](https://github.com/unicodef1wn)님의 [unicodef1wn/grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes)를 기반으로 번역 및 제작된 공식 한국어 포크 저장소입니다. 원작자의 72시간 라이브 스트리밍 현장 기록 정리에 깊은 감사를 표합니다. (All credits for compiling the original field notes go to [@unicodef1wn](https://github.com/unicodef1wn).)
-> - 📕 **한국어 완본 PDF (24p)**: [`guide/grok-bot-guide-by-spacex-engineers-ko.pdf`](guide/grok-bot-guide-by-spacex-engineers-ko.pdf)
-> - 🌐 **웹 소스 HTML**: [`guide/grok-bot-guide-ko.html`](guide/grok-bot-guide-ko.html)
+> 🇰🇷 **Korean Edition Available (한국어 번역 완본)**:
+> The complete 24-page *Grok Bot Guide by SpaceX Engineers* has been translated into Korean with 1:1 layout and pagination fidelity:
+> - 📕 **Korean Guide PDF (24p)**: [`guide/grok-bot-guide-by-spacex-engineers-ko.pdf`](guide/grok-bot-guide-by-spacex-engineers-ko.pdf)
+> - 🌐 **Standalone HTML Source**: [`guide/grok-bot-guide-ko.html`](guide/grok-bot-guide-ko.html)
+> - Special thanks to [@unicodef1wn](https://github.com/unicodef1wn) for compiling the original field notes. Translated by [@msdkim0424](https://github.com/msdkim0424).
 
 Three engineers from the xAI Grok Bot team built and launched a product from an empty repo in 72 hours, live on stream, using their own agent platform: [Roshan Sadanani](https://www.linkedin.com/in/roshansadanani) (product), [Lauren Tan](https://www.linkedin.com/in/laurenelizabethtan) (engineering, author of PStack), and [Matt Palmer](https://www.linkedin.com/in/matt-palmer) (developer experience). This repo is what I pulled out of those three days: a designed guide, rules you can drop into your own agents, nine role playbooks, a catalogue of bot roles, and a log of everything that broke.
 
