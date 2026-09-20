@@ -26,25 +26,25 @@ xAI의 Grok Bot 팀 엔지니어 3명([Roshan Sadanani](https://www.linkedin.com
 
 ## 어디서부터 시작해야 할까요? (Where to start)
 
-- **내 에이전트에게 즉각 적용할 규칙이 필요할 때**: [`AGENTS.md`](AGENTS.md)를 내 레포 루트에 복사하십시오.
-- **에이전트가 "직접 돌려보고 알려달라"며 일을 떠넘길 때**: [`agents/VERIFICATION.md`](agents/VERIFICATION.md).
-- **단일 봇 프롬프트를 넘어 에이전트 팀을 설계할 때**: [`agents/ORCHESTRATION.md`](agents/ORCHESTRATION.md).
-- **현장에서 진짜로 검증된 프롬프트 문구가 필요할 때**: [`agents/PROMPTS.md`](agents/PROMPTS.md).
+- **내 에이전트에게 즉각 적용할 규칙이 필요할 때**: [`AGENTS.md`](AGENTS.md)를 내 레포 루트에 복사하시면 됩니다.
+- **에이전트가 "직접 돌려보고 알려달라"며 일을 떠넘길 때**: [`agents/VERIFICATION.md`](agents/VERIFICATION.md)를 읽어보세요.
+- **단일 봇 프롬프트를 넘어 에이전트 팀을 설계할 때**: [`agents/ORCHESTRATION.md`](agents/ORCHESTRATION.md)를 참고하세요.
+- **현장에서 진짜로 검증된 프롬프트 문구가 필요할 때**: [`agents/PROMPTS.md`](agents/PROMPTS.md)를 살펴보세요.
 - **바로 복사해 쓸 수 있는 봇의 역할 정의가 필요할 때**: [`roster/`](roster/) (시작점: [`roster/README.md`](roster/README.md)).
 - **고객지원이나 영업 등 내 직무에 맞는 봇 설정을 원할 때**: [`playbooks/`](playbooks/) (시작점: [`playbooks/README.md`](playbooks/README.md)).
-- **실전에서 어떤 사고가 터지는지 미리 알고 싶을 때**: [`ANTIPATTERNS.md`](ANTIPATTERNS.md).
-- **실제 비용이 얼마나 들고 토큰이 어디로 새는지 알고 싶을 때**: [`reference/ECONOMICS.md`](reference/ECONOMICS.md).
-- **메모리에 넣을 내용과 디스크립션에 넣을 내용을 결정할 때**: [`reference/PRODUCT.md`](reference/PRODUCT.md).
-- **3일간의 전체 이야기를 한 권의 책처럼 읽고 싶을 때**: 📕 [한국어 완본 PDF 가이드](guide/grok-bot-guide-by-spacex-engineers-ko.pdf) 또는 [영문 원본 PDF](guide/grok-bot-guide-by-spacex-engineers.pdf).
-- **특정 사실관계를 교차 검증하고 싶을 때**: [`notes/`](notes/).
+- **실전에서 어떤 사고가 터지는지 미리 알고 싶을 때**: [`ANTIPATTERNS.md`](ANTIPATTERNS.md)를 확인하세요.
+- **실제 비용이 얼마나 들고 토큰이 어디로 새는지 알고 싶을 때**: [`reference/ECONOMICS.md`](reference/ECONOMICS.md)를 확인해 보세요.
+- **메모리에 넣을 내용과 디스크립션에 넣을 내용을 결정할 때**: [`reference/PRODUCT.md`](reference/PRODUCT.md)를 읽어보세요.
+- **3일간의 전체 이야기를 한 권의 책처럼 읽고 싶을 때**: 📕 [한국어 완본 PDF 가이드](guide/grok-bot-guide-by-spacex-engineers-ko.pdf) 또는 [영문 원본 PDF](guide/grok-bot-guide-by-spacex-engineers.pdf)를 다운로드해 보세요.
+- **특정 사실관계를 교차 검증하고 싶을 때**: [`notes/`](notes/)를 참고하세요.
 
 ## 핵심 요약 (In one paragraph)
 
-각 에이전트에게 좁은 단일 역할과 이름을 부여하십시오. 두 번째 에이전트를 만들기 전에 검증 루프부터 먼저 구축하십시오.
+각 에이전트에게 좁은 단일 역할과 이름을 부여하세요. 두 번째 에이전트를 만들기 전에 검증 루프부터 먼저 구축해야 합니다.
 
-에이전트가 버그를 고치기 전에 반드시 먼저 재현하게 만들고, 모든 작업물에 검증 증거를 첨부하게 하십시오. 틀렸을 때는 지엽적인 사건의 스토리가 아닌 일반 원칙을 기록하십시오.
+에이전트가 버그를 고치기 전에 반드시 먼저 재현하게 만들고, 모든 작업물에 검증 증거를 첨부하도록 하세요. 실수를 바로잡을 때는 지엽적인 사건의 스토리가 아닌 일반 원칙을 기록하세요.
 
-빈도(Frequency)가 곧 비용이므로 루틴을 매주 감사하십시오. 자동화 루프가 아무리 잘 돌아가더라도 마이그레이션, 배포, 결제, 권한에는 반드시 사람의 승인 관문을 유지하십시오.
+빈도(Frequency)가 곧 비용이므로 루틴을 매주 점검하세요. 자동화 루프가 아무리 잘 돌아가더라도 마이그레이션, 배포, 결제, 권한에는 반드시 사람의 승인 관문을 유지해야 합니다.
 
 ## 라이선스 (License)
 
